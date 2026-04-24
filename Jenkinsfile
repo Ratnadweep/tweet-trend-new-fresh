@@ -21,6 +21,7 @@ pipeline {
                 echo "----------- Build Completed ----------"
             }
         }
+    }
 
         /*stage("Test") {
             steps {
@@ -66,7 +67,7 @@ pipeline {
                 echo '<--------------- Deployment Completed --------------->'
             }
         }
-    }*/
+    }
 
     post {
         always {
