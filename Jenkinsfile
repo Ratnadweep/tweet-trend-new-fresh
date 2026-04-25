@@ -21,9 +21,8 @@ pipeline {
                 echo "----------- Build Completed ----------"
             }
         }
-    }
 
-        /*stage("Test") {
+        stage("Test") {
             steps {
                 echo "----------- Test Started ----------"
                 sh 'mvn test'
@@ -67,7 +66,7 @@ pipeline {
                 echo '<--------------- Deployment Completed --------------->'
             }
         }
-    }*/
+    }
 
     post {
         always {
